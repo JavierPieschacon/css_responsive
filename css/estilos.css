@@ -1,21 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+	src: url(../fuentes/Aguafina-Script)
+}
+/*fuentes*/
 
 body {
 	align-content: center;
-	width:900px;
-	margin:30px;
+	width:90%;
+	margin:10%;
+	font-family:'aguafina-script';
 }
 header {
-	padding: 3px 10px;
-	margin-bottom: 5px;
-	border-radius: 10px;
-	width:100%;
+	margin-bottom: 2%;
+	border-radius: 10px 10px 0px 0px;
 	height:80px;
 	background-color:#5b7989;
-	font-family: "aguafina-script";
-	text-shadow: 2px 2px 2px #02010a ; 
 	color:white;
+	padding:inherit;
 }
 
 #titulo {
@@ -23,6 +25,12 @@ header {
 	float:left;
 	width: 50%;
 }
+
+header h1{
+	font-size: 1.7em;
+	text-shadow: 2px 2px 2px #02010a ; 
+	
+	}
 #nav {
   padding-top: 30px; 
   float: right;
