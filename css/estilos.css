@@ -6,10 +6,10 @@
 /*fuentes*/
 
 body {
-	align-content: center;
+	align-content:center;
 	width:90%;
 	margin:10%;
-	font-family:'aguafina-script';
+	font-family: 'Aguafina Script', cursive;
 }
 header {
 	margin-bottom: 2%;
@@ -29,6 +29,8 @@ header {
 header h1{
 	font-size: 1.7em;
 	text-shadow: 2px 2px 2px #02010a ; 
+	word-spacing: 3px;
+	letter-spacing: 2px;
 	
 	}
 #nav {
@@ -40,7 +42,7 @@ header h1{
 	
 }
 a{
-	font-family: "aguafina-script";
+	
 	text-shadow: 2px 2px 2px #02010a ; 
 	text-align: left;
 	text-decoration: none;
