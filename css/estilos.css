@@ -7,8 +7,10 @@
 
 body {
 	width:90%;
-	margin:10%;
+	margin:auto;
 	font-family: 'Aguafina Script', cursive;
+	background-color: black;
+	
 }
 header {
 	margin-bottom: 2%;
@@ -42,7 +44,7 @@ header h1{
 	
 }
 a{
-	
+	padding: 2px;
 	text-shadow: 2px 2px 2px #02010a ; 
 	text-align: left;
 	text-decoration: none;
@@ -54,11 +56,12 @@ section {
 	background-color:#82c3a6;
 	
 	
+	
 }
 #img1 {
 	padding-top: 10px;
 	padding-left: 15%;
-	width:auto;
+	width:60%;
 	height:auto;
 	
 	
