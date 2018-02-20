@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	src: url(../fuentes/Aguafina-Script)
+}
+/*fuentes*/
+
+body {
+	width:90%;
+	margin:auto;
+	font-family: 'Aguafina Script', cursive;
+	background-color: black;
+	
+}
+header {
+	margin-bottom: 2%;
+	border-radius: 10px 10px 0px 0px;
+	height:80px;
+	background-color:#5b7989;
+	color:white;
+	padding:inherit;
+}
+
+#titulo {
+	
+	float:left;
+	width: 50%;
+}
+
+header h1{
+	font-size: 2em;
+	text-shadow: 2px 2px 2px #02010a ; 
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	
+	}
+#nav {
+  font-size: 1.5em;
+  padding-top: 30px; 
+  float: right;
+  width: 20%;
+
+	
+	
+}
+a{
+	padding: 2px;
+	text-shadow: 2px 2px 2px #02010a ; 
+	text-align: left;
+	text-decoration: none;
+	color:white;
+}
+section {
+	
+	width:100%;
+	
+	
+	
+	
+}
+body img{
+	-webkit-box-shadow: 2px 2px 2px 2px #02010a;
+	-moz-box-shadow: 2px 2px 2px 2px #02010a;
+	box-shadow: 2px 2px 2px 2px #02010a;
+	
+}
+#img1 {
+	width: 900px;
+	margin:10px  10px 10px 30px;
+	background-color:#82c3a6;
+	background-size:contain;
+	padding-top: 10px;
+	float:left;
+	
+}
+#img1 img{
+	
+
+	max-width: 100%;
+}
+
+.contenido{
+	padding-top: 10px;
+	background:#d5c75f;
+	border: 1px solid;
+	min-width:900px;
+	
+	
+	
+}
+#img2{
+	padding-left:10px;
+	width:45%;
+	height:auto;
+	float:left;
+	
+	
+}
+#img3 {
+	width:50%;
+	height: auto;
+	float:right;
+}

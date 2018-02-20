@@ -6,87 +6,109 @@
 /*fuentes*/
 
 body {
-	width:90%;
-	margin:auto;
+	background-color:black;
 	font-family: 'Aguafina Script', cursive;
-	background-color: black;
+	color:white;
+	width:900px;
+	margin-left:10px;
+	
+}
+body img{
+	-webkit-box-shadow: 2px 2px 2px 2px #02010a;
+	-moz-box-shadow: 2px 2px 2px 2px #02010a;
+	box-shadow: 2px 2px 2px 2px #02010a;
 	
 }
 header {
-	margin-bottom: 2%;
-	border-radius: 10px 10px 0px 0px;
-	height:80px;
-	background-color:#5b7989;
-	color:white;
-	padding:inherit;
-}
-
-#titulo {
+	 
+  width: 100%;
+  height: 80px;
+  position:inherit;
+  top: 10;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
 	
+	
+}
+#titulo {
 	float:left;
-	width: 50%;
+	text-shadow: 2px 2px 2px #02010a;
+	
+	
 }
 
 header h1{
-	font-size: 2em;
-	text-shadow: 2px 2px 2px #02010a ; 
-	word-spacing: 3px;
-	letter-spacing: 2px;
+	
 	
 	}
 #nav {
-  font-size: 1.5em;
-  padding-top: 30px; 
-  float: right;
-  width: 20%;
+	height: 100%;
+	padding-top: 20px;
+	
+  	
+}
 
-	
-	
+ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
 }
-a{
-	padding: 2px;
-	text-shadow: 2px 2px 2px #02010a ; 
-	text-align: left;
-	text-decoration: none;
+
+li{
+  float: right;
+  display: block;
+  margin: 0px 5px;
+  padding: 15px 0px;
+  height: 100%;
+  
+  
+}
+li a{
+	text-decoration:none;
 	color:white;
+	text-shadow: 2px 2px 2px #02010a;
+	letter-spacing:2px;
+	
 }
+.contenedor{
+	width: 100%;
+	flex-direction:row;
+	
+}
+
+#img1 {
+	
+    height:330px;
+	padding: 0px 12px;
+	background:#82c3a6;
+	
+	
+	
+	}
+picture img1{
+align-items: center;
+	
+}
+
 section {
 	
-	width:100%;
-	background-color:#82c3a6;
 	
 	
-	
-}
-#img1 {
-	padding-top: 10px;
-	padding-left: 15%;
-	width:60%;
-	height:auto;
 	
 	
 	
 }
 
-.contenido{
-	padding-top: 10px;
-	background:#d5c75f;
-	border: 1px solid;
-	width: 100%;
-	height:440px;
-	
-}
+
+
+
+
 #img2{
-	padding-left:10px;
-	width:45%;
-	height:auto;
-	
-	float:left;
 	
 	
+	background-color:  #d5c75f ;
 }
 #img3 {
-	width:50%;
-	height: auto;
-	float:right;
+	background-color:  #d5c75f ;
 }
