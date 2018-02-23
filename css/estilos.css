@@ -73,6 +73,7 @@ li a{
 	letter-spacing:2px;
 	
 }
+/*pagina de inicio*/
 .contenedor{
 	width: 100%;
 	flex-direction:row;
@@ -135,6 +136,37 @@ align-items: center;
 	box-shadow:3px #82c3a6 ;
 }
 
+/*fin pagina inicio*/
+/*galeria pagina paisajes*/
+
+.galeria{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px 0px;
+	background-color: #d5c75f;
+	color: black;	
+}
+div [class*="galeria"]{
+  flex: 3 2 25%;
+}
+.galeria div{
+	object-position: center;
+	padding: 10px;
+    margin: 25px;
+    border: none;
+	
+	
+	
+}
+	
+.galeria img{
+	width: 100%;
+
+}
+
+
 footer{
 	width:100%;
 	height:auto;
@@ -159,9 +191,10 @@ footer  p{
 	font-weight: bold;
 	text-decoration: none;
 	color:black;
-	letter-spacing: 1.5px;
+	
 }
 footer  a{
+	width:100%;
 	text-decoration: none;
 	color:black;
 }
