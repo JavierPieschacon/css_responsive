@@ -155,11 +155,18 @@ footer h2{
 	word-spacing: 4px;
 	letter-spacing: 3px;
 }
-
-footer #redes a {
+footer  p{
+	font-weight: bold;
+	text-decoration: none;
+	color:black;
+	letter-spacing: 1.5px;
+}
+footer  a{
 	text-decoration: none;
 	color:black;
 }
+
+
 
 footer #redes p img{
 	margin-right:6px; 
