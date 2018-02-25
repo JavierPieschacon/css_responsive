@@ -26,13 +26,13 @@ container {
 }
 header {
 	 
-  width: 900px;
+  max-width: 900px;
   height: 80px;
   position:inherit;
-  top: 10;
+  top:10px;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
-	margin: auto;
+  margin: auto;
 	
 	
 }
@@ -46,63 +46,70 @@ header {
 
 
 #nav {
-	height: 100%;
+	width: 100%;
 	padding:20px 10px 0 0;
 	
   	
 }
 
 ul{
-  list-style-type: none;
+  list-style-type:none;
   margin: 0;
-  overflow: hidden;
+  overflow:hidden;
   height: 100%;
 }
 
 li{
-  float: right;
-  display: block;
-  margin: 0px 5px;
-  padding: 15px 0px;
-  height: 100%;
+  float:right;
+  display:block;
+  margin:0px 5px;
+  padding:15px 0px;
+  height:100%;
   
   
 }
 li a{
-	text-decoration:none;
+	
 	color:white;
-	text-shadow: 2px 2px 2px #02010a;
+	text-shadow:2px 2px 2px #02010a;
 	letter-spacing:2px;
 	
 }
+.texto_sin{
+text-decoration:none;	
+}
 /*pagina de inicio*/
 .contenedor{
-	width: 900px;
-	margin: auto;
-	flex-direction:row;
+	
+	max-width:900px;
+	margin:auto;
+	
 	
 }
 
 #img1 {
-	
-    height:330px;
-	padding: 10px 12px 0px 6px;
-	background:#82c3a6;
+	margin:auto;
+	padding:10px;
+	background: #82c3a6;
 	}
-picture img1{
-align-items: center;
+#img1 img{
 	
-}
+	margin: auto;
+	width: 100%;
+  }
 
 .contenido{
-	width:900px;
+	max-width: 900px;
 	display: flex;
 	margin: auto;
 	padding: 10px 0px ;
 	background-color:#d5c75f;
 }
 .contenido img{
+	width: 100%;
+	margin: auto;
 	border: 1px solid black;
+	
 }
 .contenido h2{
 	text-align: center;
@@ -114,13 +121,17 @@ align-items: center;
 #img2{
 	margin: auto;
 	float:left;
-	position: relative;
+	position:relative;
 	
    
 }
 #img2 a img:hover {
 	transform:rotate(10deg);
-	box-shadow:3px #82c3a6 ;
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	box-shadow:3px #82c3a6;
+	-webkit-box-shadow:3px #82c3a6;
+	-moz-box-shadow:3px #82c3a6;
 	border: 2px solid black;
 }
 #img3 {
@@ -132,17 +143,21 @@ align-items: center;
 
  #img3 a img:hover {
 	transform:translate(20px,-5px);
-	
-	box-shadow:3px #82c3a6 ;
+	-webkit-transform:translate(20px,-5px);
+	-moz-transform:translate(20px,-5px);
+	box-shadow:3px #82c3a6;
+	-moz-box-shadow:3px #82c3a6;
+	-webkit-box-shadow:3px #82c3a6;
 }
 
 /*fin pagina inicio*/
-/*galeria pagina paisajes*/
+
+/*galeria pagina paisajes y retratos*/
 
 
 
 .galeria{
-	width:900px;
+	max-width: 900px;
 	margin:auto;
 	background-color: #d5c75f;
 	color: black;
@@ -171,18 +186,22 @@ align-items: center;
 #imgp1{
 	filter: blur(10px);
 	-webkit-filter: blur(10px);
+	 -moz-filter: blur(10px);
 	}
 #imgp3{
 	filter: sepia(90%);
 	-webkit-filter: sepia(90%);
+	 -moz-filter: sepia(90%);
 }
 
 #imgp2, #imgp4, #imgp6{
 	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	 -moz-filter: grayscale(100%);
 }
-/*fin pagina paisages*/
+/*fin pagina paisages y retratos*/
 footer{
-	width:900px;
+	max-width: 900px;
 	height:auto;
 	margin: auto;
 	background-color:#C6d5c5;
@@ -221,7 +240,9 @@ footer p img{
 	width:25px;
 	
 }
-footer #redes p img:hover{
+footer  p img:hover{
 	transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
 	
 }
