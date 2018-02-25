@@ -168,7 +168,18 @@ align-items: center;
 	width: 100%;
 }
 
+#imgp1{
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	}
+#imgp3{
+	filter: sepia(90%);
+	-webkit-filter: sepia(90%);
+}
 
+#imgp2, #imgp4, #imgp6{
+	filter: grayscale(100%);
+}
 /*fin pagina paisages*/
 footer{
 	width:900px;
