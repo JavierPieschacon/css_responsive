@@ -143,24 +143,28 @@ align-items: center;
 
 .galeria{
 	width:900px;
-	display: flex;
 	margin:auto;
 	background-color: #d5c75f;
 	color: black;
 	
 }
 .galeria h2{
+text-align: center;
 	width: auto;
 }
-
-.galeria picture{
+.galeria foto{
+	padding: 10px 0px;
+	width: 100%;
 	margin: auto;
+	display:flex;
 	flex-wrap: wrap;
-	/*flex-flow: row wrap;*/
+}
+.galeria div{
+	margin: auto;
 	width: 30%;
 	
 }
-.galeria picture img{
+.galeria foto img{
 	width: 100%;
 }
 
