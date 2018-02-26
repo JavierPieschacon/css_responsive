@@ -135,6 +135,7 @@ text-decoration:none;
 	border: 2px solid black;
 }
 #img3 {
+	
 	margin: auto;
 	float:right;
 	position:relative;
@@ -237,7 +238,7 @@ footer  a{
 
 footer p img{
 	margin-right:6px; 
-	width:25px;
+	width:15%;
 	
 }
 footer  p img:hover{
@@ -288,12 +289,13 @@ footer  p img:hover{
 		width: 100%;
 		float:none;
 		margin:auto;
+		padding: 0;
 		
 	}
 	#nav{
 		width: 100%;
 		margin: auto;
-		
+		padding: 0.5% 0.5% 0 0;
 		align-content: center;
 		
 	}
@@ -308,6 +310,7 @@ footer  p img:hover{
 		
 		
 	}
+	/*pag inicio*/
 	.contenedor{
 		width: 100%;
 		order: 2;
@@ -315,20 +318,54 @@ footer  p img:hover{
 	.contenido{
 		margin: auto;
 		width: 100%;
+		display: block;
 		order: 3;
 	}
 	#img2{
+		width: 80%;
 		margin: auto;
 		float: none;
+		padding: 10px;
 	}
 	#img3{
+		width: 80%;
 		margin: auto;
 		float: none;
+		padding: 10px;
 	}
+	/*fin pag de inicio*/
+	/*pag retratos y paisajes*/
+	
+	.galeria{
+		width: 100%;
+		margin: auto;
+		}
+	.galeria foto{
+		width:100%;
+		margin: auto;
+		display: block;
+	}
+	.galeria div{
+		margin: auto;
+		width:80%;
+	}
+	
+	.galeria foto img{
+		width: 100%;
+	}
+	/*fin pag retratos y paisajes*/
 	footer{
+		margin: auto;
 		width: 100%;
 		order: 4;
+		display: block;
 	}
+	footer div{
+		margin: auto;
+		width: 30%;
+		padding: 0.1%;
+	}
+	
 	/*.bloque4 {
 		width: 100%;
 		min-height: 150px;
@@ -338,32 +375,100 @@ footer  p img:hover{
 		min-height: 150px;
 	}*/
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 480px) and (min-width:353px){
 	conteiner{
 		width: 100%;
 	}
+	
 	header {
 		width: 100%;
+		margin: auto;
+		height: auto;
+		display: flex;
+		flex-direction: column;
 		order: 1;
+		text-align: center;
+	}
+	#titulo{
+		width: 100%;
+		float:none;
+		margin:auto;
+		padding:0.1% 0;
+		
+	}
+	#nav{
+		width: 100%;
+		margin: auto;
+		padding: 0.1% 0;
+		align-content: center;
+		
+	}
+	ul{
+		
+		margin:auto;
+	
+	}
+	li{
+		margin:0 7%;
+		float: left;
+		
+		
 	}
 	.contenedor{
 		width: 100%;
 		order: 2;
 	}
 	.contenido{
+		margin: auto;
 		width: 100%;
+		display: block;
 		order: 3;
 	}
+	#img2{
+		width: 80%;
+		margin: auto;
+		float: none;
+		padding: 10px;
+	}
+	#img3{
+		width: 80%;
+		margin: auto;
+		float: none;
+		padding: 10px;
+	}
+	/*fin pag de inicio*/
+	/*pag retratos y paisajes*/
+	
+	.galeria{
+		width: 100%;
+		margin: auto;
+		}
+	.galeria foto{
+		width:100%;
+		margin: auto;
+		display: block;
+	}
+	.galeria div{
+		margin: auto;
+		width:80%;
+		padding: 3% 0;
+		
+	}
+	
+	.galeria foto img{
+		width: 100%;
+		
+	}
+	/*fin pag retratos y paisajes*/
 	footer{
+		margin: auto;
 		width: 100%;
 		order: 4;
-		}
-/*	.bloque4 {
-		width: 100%;
-		min-height: 150px;
+		display: block;
 	}
-	.bloque5{
-		width: 100%;
-		min-height: 150px;
-	}*/
+	footer div{
+		margin: auto;
+		width: 40%;
+		padding: 0.1% 0;
+	}
 }
