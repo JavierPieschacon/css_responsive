@@ -3,8 +3,29 @@
 @font-face {
 	src: url(../fuentes/Aguafina-Script);
 	src: url(../fuentes/Dancing-Script);
+	
 }
 /*fuentes*/
+
+
+/*Animacion entrada*/  
+
+@-webkit-keyframes javier{
+	
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	
+	100%{
+		margin-top: 0%;
+	}
+}
+
+
+/*fin animacion entrada*/
 
 body {
 	background-color:black;
@@ -13,16 +34,20 @@ body {
 	font-style: italic;
 	color:white;
 	margin-left:10px;
+	animation: javier 1.4s;
 	
 }
 body img{
-	-webkit-box-shadow: 2px 2px 2px 2px #02010a;
-	-moz-box-shadow: 2px 2px 2px 2px #02010a;
+	-webkit-box-shadow: 2px 2px 2px 2px #02010a;/*Chrome, Safari */
+	-moz-box-shadow: 2px 2px 2px 2px #02010a;/*Firefox */
+	-o-box-shadow: 2px 2px 2px 2px #02010a;/*Opera*/
+	-ms-box-shadow: 2px 2px 2px 2px #02010a;/*Internet Explorer 10+*/
 	box-shadow: 2px 2px 2px 2px #02010a;
 	
 }
 container { 
-	background-color: aqua; 
+	background-color: aqua;
+	
 }
 header {
 	 
@@ -127,11 +152,15 @@ text-decoration:none;
 }
 #img2 a img:hover {
 	transform:rotate(10deg);
-	-webkit-transform:rotate(10deg);
-	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);/*Chrome, Safari */
+	-moz-transform:rotate(10deg);/*Firefox */
+	-o-transform:rotate(10deg);/*Opera*/
+	-ms-transform:rotate(10deg);/*Internet Explorer 10+*/
 	box-shadow:3px #82c3a6;
-	-webkit-box-shadow:3px #82c3a6;
-	-moz-box-shadow:3px #82c3a6;
+	-webkit-box-shadow:3px #82c3a6;/*Chrome, Safari */
+	-moz-box-shadow:3px #82c3a6;/*Firefox */
+	-o-box-shadow:3px #82c3a6;/*Opera*/
+	-ms-box-shadow:3px #82c3a6;/*Internet Explorer 10+*/
 	border: 2px solid black;
 }
 #img3 {
@@ -144,11 +173,15 @@ text-decoration:none;
 
  #img3 a img:hover {
 	transform:translate(20px,-5px);
-	-webkit-transform:translate(20px,-5px);
-	-moz-transform:translate(20px,-5px);
+	-webkit-transform:translate(20px,-5px);/*Chrome, Safari */
+	-moz-transform:translate(20px,-5px);/*Firefox */
+	-o-transform:translate(20px,-5px);/*Opera*/
+	-ms-transform:translate(20px,-5px);/*Internet Explorer 10+*/
 	box-shadow:3px #82c3a6;
-	-moz-box-shadow:3px #82c3a6;
-	-webkit-box-shadow:3px #82c3a6;
+	-webkit-box-shadow:3px #82c3a6;/*Chrome, Safari */
+	-moz-box-shadow:3px #82c3a6;/*Firefox */
+	-o-box-shadow:3px #82c3a6;/*Opera*/
+	-ms-box-shadow:3px #82c3a6;/*Internet Explorer 10+*/
 }
 
 /*fin pagina inicio*/
@@ -187,18 +220,24 @@ text-decoration:none;
 #imgp1{
 	filter: blur(10px);
 	-webkit-filter: blur(10px);
-	 -moz-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
 	}
 #imgp3{
 	filter: sepia(90%);
 	-webkit-filter: sepia(90%);
-	 -moz-filter: sepia(90%);
+	-moz-filter: sepia(90%);
+	-o-filter: sepia(90%);
+	-ms-filter: sepia(90%);
 }
 
 #imgp2, #imgp4, #imgp6{
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
-	 -moz-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
 }
 /*fin pagina paisages y retratos*/
 footer{
@@ -245,6 +284,8 @@ footer  p img:hover{
 	transform:rotate(5deg);
 	-webkit-transform:rotate(5deg);
 	-moz-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
+	-ms-transform:rotate(5deg);
 	
 }
 
